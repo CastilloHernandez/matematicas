@@ -8,8 +8,8 @@ op2=0
 respuesta=' '
 
 while respuesta != 'salir':
-	op2=random.randrange(0,10)
-	op1=random.randrange(0,3)
+	op2=random.randrange(0,99)
+	op1=random.randrange(0,99)
 	print str(op1).rjust(2) + ' x ' + str(op2).rjust(2) + ' ='
 	print '________'
 	respuesta = raw_input('Resultado: ')

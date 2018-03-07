@@ -9,11 +9,11 @@ r=0
 respuesta=' '
 
 while respuesta != 'salir':
-	op2=random.randrange(0,1000)
-	op1=random.randrange(op2,1000)
-	print ' ' + str(op1).rjust(3)
-	print '-' + str(op2).rjust(3)
-	print '________'
+	op2=random.randrange(0,9999)
+	op1=random.randrange(op2,9999)
+	print ' ' + str(op1).rjust(5)
+	print '-' + str(op2).rjust(5)
+	print '_' * 6
 	respuesta = raw_input('Resultado: ')
 	if respuesta != 'salir':
 		try: 
